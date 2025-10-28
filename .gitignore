@@ -1,0 +1,29 @@
+# Ignore Jupyter autosaves and workspace files
+**/.ipynb_checkpoints/
+**/.jupyter/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environments
+.env/
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Data
+data/
+*.csv
+*.pt
+*.pkl
+
+# Logs
+logs/
+*.log
+
+# Azure / MLflow artifacts
+mlruns/
+outputs/
+
